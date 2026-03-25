@@ -1,7 +1,7 @@
 // src/services/api.js
 // All HTTP calls to the Spring Boot backend
 
-const BASE_URL = "http://localhost:8080/api";
+const BASE_URL = "https://plantpal-backend-27z7.onrender.com/api";
 
 // ─── Helper ──────────────────────────────────────────────────
 function getToken() {

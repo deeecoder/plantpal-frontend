@@ -13,7 +13,7 @@ function useFonts() {
 }
 
 // ─── API LAYER ───────────────────────────────────────────────
-const BASE = "http://localhost:8080/api";
+const BASE = "https://plantpal-backend-27z7.onrender.com/api";
 
 async function apiFetch(path, opts = {}) {
   const token = localStorage.getItem("plantpal_token");
